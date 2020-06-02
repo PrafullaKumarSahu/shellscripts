@@ -7,3 +7,4 @@ echo "$p10user" | tr ' ' '\012' # tr translated the spaces into octal character 
 
 # Another use of tr is its use of range ...it can convert text to upper or lower case.
 echo "$p10user" | tr ' ' '\012' | tr '[a-z]' '[A-Z]'
+echo "$p10user" | tr ' ' '\012' | tr '[:lower:]' '[:upper:]'

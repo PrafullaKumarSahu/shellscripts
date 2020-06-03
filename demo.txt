@@ -1,1 +1,6 @@
 Just an example file to help learning shell script.
+Below are some example text lines
+Just an example file to help learning shell script.
+Just an example file to help learning shell script.
+Just an example file to help learning shell script.
+Just an example file to help learning shell script.

@@ -1,0 +1,5 @@
+echo "Hello $NOTHING World!!!!!!"
+echo "Hello $MY_NAME - hope you're well."
+echo "MYVAR is: $MYVAR"
+MYVAR="Test"
+echo "MYVAR is: $MYVAR"

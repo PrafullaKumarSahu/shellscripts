@@ -8,3 +8,4 @@ SUMAB=A+B
 echo SUMAB
 echo What is your name?
 read MY_NAME
+echo ${MY_NAME}

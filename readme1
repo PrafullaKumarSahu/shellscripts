@@ -1,0 +1,46 @@
+What is shell?
+
+A shell is a program that provides an interface between a user and an operating system kernel.
+
+A kernel is a program that:
+	- Controls all computer operation
+	- Coordinates all executing utilities
+	- Ensure that executing ultilities do not interfare with each other or consume all system resource
+	- Schedules and manage all system processes.
+
+A shell also provides a user envirnment that you can customize using initialization files. These files contain settings for user envirnment characteristics, such as
+
+	- Search paths for finding commands.
+	- Default permissions on new files.
+	- Values for variables that other programs use.
+	- Values that you can customize.
+	
+What are the different Shells?
+
+1. The Bourne Shell (The original UNIX shell)
+	 It is the preferred shell for shell programming because of its compactness and speed. A Bourne shell drawback is that it lacks features for interactive use, such as the ability to recall previous commands (history). The Bourne shell also lacks built-in arithmetic and logical expression handling.
+	 
+2. The C shell
+	Incorporated features for interactive use, such as aliases and command history.
+	Includes convenient programming features, such as built-in arithmetic and a C-like expression syntax.
+	
+3. The Korn Shell
+	Is a superset of the Bourne shell.
+	Supports everything in the Bourne shell.
+	Has interactive features comparable to those in the C shell.
+	Includes convenient programming features like built-in arithmetic and C-like arrays, functions, and string-manipulation facilities.
+	Is faster than the C shell.
+	Runs scripts written for the Bourne shell.
+	
+4. The GNU Bourne-Again Shell
+	Is compatible to the Bourne shell.
+	Incorporates useful features from the Korn and C shells.
+	Has arrow keys that are automatically mapped for command recall and editing.
+
+Here is a short comparison of the all 4 shells and their properties.
+
+      Shell 	                            Path 	         Default Prompt (non-root user) 	Default Prompt (Root user)
+The Bourne Shell (sh) 	             /bin/sh and /sbin/sh 	              $ 	                            #
+The C Shell (csh) 	                     /bin/csh 	                      % 	                            #
+The Korn Shell (ksh) 	                 /bin/ksh 	                      $ 	                            #
+The GNU Bourne-Again Shell (Bash) 	     /bin/bash 	                 bash-x.xx$ 	                    bash-x.xx#
